@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		B083642A2355B25A00F3FAA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08364292355B25A00F3FAA7 /* AppDelegate.swift */; };
 		B083642C2355B25A00F3FAA7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B083642B2355B25A00F3FAA7 /* GameScene.sks */; };
-		B083642E2355B25A00F3FAA7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B083642D2355B25A00F3FAA7 /* Actions.sks */; };
 		B08364302355B25A00F3FAA7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B083642F2355B25A00F3FAA7 /* GameScene.swift */; };
 		B08364322355B25A00F3FAA7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B08364312355B25A00F3FAA7 /* GameViewController.swift */; };
 		B08364352355B25A00F3FAA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08364332355B25A00F3FAA7 /* Main.storyboard */; };
@@ -21,7 +20,6 @@
 		B08364262355B25A00F3FAA7 /* Prototype_Car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype_Car.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08364292355B25A00F3FAA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B083642B2355B25A00F3FAA7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		B083642D2355B25A00F3FAA7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		B083642F2355B25A00F3FAA7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		B08364312355B25A00F3FAA7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		B08364342355B25A00F3FAA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 			children = (
 				B08364292355B25A00F3FAA7 /* AppDelegate.swift */,
 				B083642B2355B25A00F3FAA7 /* GameScene.sks */,
-				B083642D2355B25A00F3FAA7 /* Actions.sks */,
 				B083642F2355B25A00F3FAA7 /* GameScene.swift */,
 				B08364312355B25A00F3FAA7 /* GameViewController.swift */,
 				B08364332355B25A00F3FAA7 /* Main.storyboard */,
@@ -135,7 +132,6 @@
 				B083642C2355B25A00F3FAA7 /* GameScene.sks in Resources */,
 				B08364372355B25C00F3FAA7 /* Assets.xcassets in Resources */,
 				B083643A2355B25C00F3FAA7 /* LaunchScreen.storyboard in Resources */,
-				B083642E2355B25A00F3FAA7 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marcomak.Prototype-Car";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marcomak.Prototype-Car";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
